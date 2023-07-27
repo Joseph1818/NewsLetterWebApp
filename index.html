@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="styles.css">
+  <link type="text/css" href="/public/css/styles.css" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
   <title>NewsLetter</title>
-
 
 
 </head>
@@ -47,24 +47,27 @@
     </div>
 
     <img src="/images/NewsPaperImg.jpg" class="mainImage" alt="">
-    <div class="EmailDiv">
-      <label for="email">Email address</label>
-      <br>
-      <div class="container">
-        <div class="container__item">
-          <form class="form" method="#" action="/confirmationPage.html">
-            <input type="email" class="emailInputBox" placeholder="sophie@example.com" required />
+
+
+
+    <form class="form" method="#" action="/confirmationPage.html">
+      <div class="EmailDiv">
+        <label for="email">Email address</label>
+        <br>
+        <div class="container">
+          <div class="container__item">
+            <input type="text" class="emailInputBox" name="email" placeholder="sophie@example.com" required />
             <br>
             <input type="submit" class="submitButton" value="Subscribe to monthly newsletter">
 
-          </form>
-        </div>
-      </div>
-      <div class="footer">
-        <p>Copyright@UmbaJ</p>
-      </div>
+    </form>
+  </div>
+  </div>
+  <div class="footer">
+    <p>Copyright@UmbaJ</p>
+  </div>
 
-      <script src="index.js" charset="UTF-8"></script>
+  <script src="index.js" charset="UTF-8"></script>
 </body>
 
 </html>
